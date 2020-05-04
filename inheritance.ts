@@ -1,7 +1,7 @@
 class Person {
-    public name: string
-    private age: number
-    protected height: string
+    name: string
+    age: number
+    height: string
     constructor(name: string, age: number, height: string) {
         this.name = name
         this.age = age
@@ -22,4 +22,3 @@ console.log(person1);
 
 const student1 = new Student('Jane', 24, '4.5', 51)
 console.log(student1);
-
