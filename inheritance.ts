@@ -1,20 +1,19 @@
 class Person {
-    name: string
-    age: number
-    height: string
-    constructor(name: string, age: number, height: string) {
-        this.name = name
-        this.age = age
-        this.height = height
-    }
+    constructor(
+        public name: 
+        string, 
+        public age: number, 
+        public height: string
+        ) {}
 }
 
 class Student extends Person {
-    id: number
-    constructor(name: string, age: number, height: string, id: number) {
-        super(name, age, height)
-        this.id = id
-    }
+    constructor(
+        public name: string, 
+        public age: number, 
+        public height: string, 
+        public id: number
+    ) { super(name, age, height)}
 }
 
 const person1 = new Person('John', 27, '5')
