@@ -19,3 +19,10 @@ const house = { coffeeMachine: { size: 24 } }
 const {coffeeMachine: {size}} = house
 console.log(size);
 console.log(house.coffeeMachine.size === size)
+
+
+const plants = ['Rubber Plant', 'Snake Plant', 'Parlour Palm', 'Peace Lilly']
+
+const [rubber, snake, ...remaining] = plants
+console.log(rubber, snake, remaining);
+
