@@ -8,7 +8,7 @@ console.log(height, destination, color);
 // Change value
 mountain.height = 16000;
 
-// Update object
+// Update object. Reuse the existing variables.
 ({height, destination, color} = mountain)
 
 console.log(height, destination, color);
