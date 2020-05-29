@@ -3,4 +3,4 @@ const lyrics =
 `It's been so long since I have touched you
 I can't remember how it feels`
 
-console.log(lyrics);
+console.log(lyrics)
