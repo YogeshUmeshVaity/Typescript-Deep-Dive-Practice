@@ -1,4 +1,6 @@
 
-import { airPurifiers } from "./module-for-export"
+import { airPurifiers as purifiers, airPurifiers } from "./module-for-export"
 
-console.log(airPurifiers);
+// Both allowed
+console.log(purifiers);     // use alias
+console.log(airPurifiers)   // use actual name
