@@ -12,6 +12,7 @@ function printXyz() {
 
 /**
  * If a Promise is passed to an await expression, it waits for the Promise to be fulfilled.
+ * Code after each await expression can be thought of as existing in a .then callback.
  */
 async function printNumber() {
   var num = await resolveAfter2Seconds(10)
@@ -19,4 +20,4 @@ async function printNumber() {
 }
 
 printNumber()
-printXyz()  // It's executed before printNumber(), because printNumber() is an async function
+printXyz()  // It's executed before printNumber(), because printNumber() is an async function.
