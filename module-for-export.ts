@@ -1,0 +1,1 @@
+export const airPurifiers = ['Snake Plant', 'Parlour Palm', 'Rubber Plant']
