@@ -1,4 +1,4 @@
-// In Typescript, we need to define the type of object literal. Like we have done in the following
+// In Typescript, we need to define the type of an object literal. Like we have done in the following
 // trees object. The part followed by trees: is the type we define. It's called index signature
 // which defines the Types we are going to use. So Typescript will let us store and read only the 
 // data that conforms to the structure. The name of the index signature e.g. 'index' in following
