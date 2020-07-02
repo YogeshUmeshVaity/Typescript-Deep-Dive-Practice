@@ -12,4 +12,4 @@ const person = { name: 'Sandy', skill: 'DOP' }
 
 logName(animal)
 logName(person)
-// logName({name: 'Crow', color: 'Manhattan'})       // Error when a literal is passed
+// logName({name: 'Crow', nativeArea: 'Manhattan'})       // Error when a literal is passed
