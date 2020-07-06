@@ -15,8 +15,8 @@ console.log(Direction)
  * Generate literal type union using keyof typeof.
  * The 'typeof' operator gives you the type of some object whose type is unknown to you.
  * The 'keyof' gives you the union of literal types of properties of the type you got from 'typeof'.
- * These const Direction and type Direction should be the variables. you can't use different
- * variable names for const above and type below.
+ * These const Direction and type Direction should be the same identifers. You can't use different
+ * variable names for 'const' above and for 'type' below.
  */
 type Direction = keyof typeof Direction
 
