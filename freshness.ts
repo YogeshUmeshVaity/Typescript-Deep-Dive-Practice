@@ -8,7 +8,7 @@ function logNameStrict(something: { name: string }) {
 }
 
 const animal = { name: 'Cat', color: 'Golden' }
-const person = { name: 'Sandy', skill: 'DOP' }
+export const person = { name: 'Sandy', skill: 'DOP' }
 
 logNameStrict(animal)
 logNameStrict(person)
