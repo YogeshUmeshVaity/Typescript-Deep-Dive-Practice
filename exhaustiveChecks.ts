@@ -17,12 +17,13 @@ interface Circle {
 
 type Shape = Square | Rectangle | Circle
 
-function area(shape: Shape) {
+function area(shape: Shape): number {
     if (shape.kind == "square") {
         return shape.size * shape.size
     } else if (shape.kind == "rectangle") {
         return shape.width * shape.height
     } else {
-        // const _exhaustiveCheck: never = shape   // Error if the case for Circle not covered.
+        const _exhaustiveCheck: never = shape   // Error if the case for Circle not covered.
+        return _exhaustiveCheck
     }
 }
