@@ -3,6 +3,11 @@
 /// <reference path="ZipCodeValidator.ts" />
 
 /**
+ * Compile it using the following command to get the desired output:
+ * tsc --outFile ./out/tripleSlashTest.js tripleSlashTest.ts 
+ */
+
+/**
  * Note: Now we don't need to use triple references anymore. It's outdated.
  * We mention dependency files in tsconfig.json instead. Since Typescript version 1.5.
  */
